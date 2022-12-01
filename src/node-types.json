@@ -1,0 +1,102 @@
+[
+  {
+    "type": "auth",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "entry",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "auth",
+          "named": true
+        },
+        {
+          "type": "gecos",
+          "named": true
+        },
+        {
+          "type": "gid",
+          "named": true
+        },
+        {
+          "type": "home",
+          "named": true
+        },
+        {
+          "type": "separator",
+          "named": true
+        },
+        {
+          "type": "shell",
+          "named": true
+        },
+        {
+          "type": "uid",
+          "named": true
+        },
+        {
+          "type": "user",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "gecos",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "gid",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "home",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "entry",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "uid",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "user",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "separator",
+    "named": true
+  },
+  {
+    "type": "shell",
+    "named": true
+  }
+]
